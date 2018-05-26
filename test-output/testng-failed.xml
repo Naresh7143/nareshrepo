@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="MainTest.Facebook_Ex">
+        <methods>
+          <include name="fb_comment"/>
+          <include name="fb_verify_comment"/>
+          <include name="fb_login"/>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- MainTest.Facebook_Ex -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
